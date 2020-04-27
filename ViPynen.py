@@ -20,8 +20,7 @@ while True:
         command = input("Skriv in \"kommandon\" \n för att se möjliga alternativ. Skriv sluta för att avsluta: ")
         if command == "avsluta":
             break
-       
-    if language == "en":
+    elif language == "en":
         command = input("Skriv in kommando eller skriv kommandon \n för att se möjliga alternativ. Skriv sluta för att avlutsa")
         if command == "exit":
             break
@@ -32,7 +31,7 @@ while True:
             break
     file_to_work_with = af(language, command)
     ftww = file_to_work_with.area_to_work_with()
-        
+    break
     
 
     
